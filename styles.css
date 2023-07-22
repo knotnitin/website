@@ -110,13 +110,55 @@ h1{
     width: 100%;
 }
 
-.project p{
+.project p, #experience p{
     font-family: Helvetica;
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     transition: 0.3s;
 }
 
 .project p:hover{
     text-decoration: underline;
+}
+
+.resume{
+    font-family: Helvetica;
+    width: 300px;
+    height: 75px;
+    font-size: 24px;
+    margin-top: 20px;
+    background-color: #f6f6f6;
+}
+
+#contact{
+    margin-bottom: 60px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-family: Helvetica;
+    font-size: 16px;
+}
+
+.contact-link img{
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.contact-link a{
+    color: black;
+}
+
+.copyright{
+    background-color: #f6f6f6;
+}
+
+.copyright p{
+    font-family: Helvetica;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
 }
