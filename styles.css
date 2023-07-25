@@ -9,7 +9,7 @@ html, body{
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: rgb(123, 186, 241);
+    background-color: rgb(123, 186, 240);
     display: flex;
     justify-content: space-between;
 }
