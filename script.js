@@ -9,5 +9,9 @@ projects.forEach(project => {
             // console.log("soccer")
             window.location.href = 'webGL-football/index.html'
         }
+        else if(project.id == "carpentry"){
+            // console.log("soccer")
+            window.location.href = 'https://knotnitin.github.io/carpentry-calculator/'
+        }
     })
 })

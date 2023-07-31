@@ -92,34 +92,55 @@ h1{
 }
 
 .project{
+    position: relative;
+    display: block;
     height: 300px;
     width: 300px;
-    border: 2px solid black;
+    background: #000;
+    background-size: cover;
+    /* border: 2px solid black; */
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
+    transform: scale(1);
+    transition: all 0.1s ease-in-out;
 }
 
 .project:hover{
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.01);
 }
 
-.project-image{
-    height: 100%;
+.hovertext{
+    position: relative;
+    display: block;
     width: 100%;
+    height: 100%;
+    background: rgba(85, 85, 85, 0.8);
+    color: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    transition-delay: 0.1s;
+    opacity: 0;
+    /* This is for the text inside*/
+    font-family: Helvetica;
+    padding: 20px;
 }
 
-.project p, #experience p{
+.hovertext h2, .hovertext p{
+    text-align: center;
+}
+
+.project:hover .hovertext, .project:active .hovertext{
+    opacity: 0.8;
+}
+
+/* .project p, #experience p{
     font-family: Helvetica;
     text-align: center;
     font-size: 18px;
     transition: 0.3s;
-}
-
-.project p:hover{
-    text-decoration: underline;
-}
+} */
 
 .resume{
     font-family: Helvetica;
