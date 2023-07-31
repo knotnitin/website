@@ -12,6 +12,7 @@ html, body{
     background-color: rgb(123, 186, 240);
     display: flex;
     justify-content: space-between;
+    z-index: 1;
 }
 
 .name{
